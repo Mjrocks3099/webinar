@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+body{
+    justify-content: center;
+     /*background-image: linear-gradient(rgb(190, 247, 255), rgb(235, 161, 161) , rgb(250, 250, 169));*/
+    min-height: 100vh;
+    z-index: auto;
+
+
+}
+.container{
+    max-width: 100%;
+    max-height: 2160px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navi{
+    background-color:green;
+    color: #fff;
+    width: 1443px;
+
+
+}
+
+.navbar{
+    display: flex;
+    height: 20px;
+
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+
+}
+
+.topleft{
+    width: 50%;
+}
+
+.topright{
+    width: 50%;
+}
+
+.section1{
+   background-image: url(./assets/bcg3.jpg);
+
+   border-radius:0px;
+   padding: 5px;
+   border: 3px;
+   flex-direction: column;
+   align-items: center;
+   width: 1450px;
+   height: 100vh;
+   overflow-y: auto;
+   overflow-x: hidden;
+   display: flex;
+}
+
+ .center{
+    /* background-image: linear-gradient( rgb(255, 81, 81), rgb(255, 255, 255)); */
+    background-color: cyan;
+    border-radius: 15px;
+    padding: 10px;
+    width: 1000px;
+    height: 330px;
+    border: solid black;
+    border-width: 2px;
+    display: flex;
+    flex-direction: column;
+
+ }
+
+.center h1{
+
+    justify-content: center;
+    background-color: rgb(0,0,0);
+    border-radius: 8px;
+    margin-left: 15px;
+    margin-right: 450px;
+    padding-left: 10px;
+    max-width: max-content;
+    border: solid black;
+    border-width: 0 3px;
+}
+
+.center .my-1{
+    color: #fff;
+    justify-content: center;
+    padding: 3px;
+    align-items: center;
+}
+
+
+.text-center{
+    color: black;
+    font-family: sans-serif;
+ }
+
+ .section1 h1{
+    color: #fff;
+}
+
+.A-1{
+    flex-direction: column;
+}
+
+.hori{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.schedule{
+    background-color: #fae2e2;
+    border-radius: 10px;
+    max-width: fit-content;
+    padding: 10px;
+    border: solid red;
+    border-width: 0 2px;
+    max-height: fit-content;
+}
+
+.para{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;
+font-size: 1.1em;
+}
+
+.schedule h3{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#time{
+    color: black;
+    font-weight: bold;
+}
+
+#live{
+    color: red;
+    font-weight: bold;
+}
+
+.buttons{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    font-size: 1.3rem;
+}
+
+
+footer{
+    background-color:green;
+    padding: auto;
+    text-align: center;
+    width: 1443px;
+
+}
+
+.flex1{
+    justify-content: center;
+    align-items: center;
+    margin: 15px, 5px, 25px;
+    flex-direction: column;
+}
+.signupForm{
+    display: block;
+}
+
+/* additional design */
+.buttons {
+    position: relative;
+    display: inline-;
+  }
+
+  .buttons .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+
+  .buttons:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  footer .icons .licons-list a i {
+    font-size: 25px;
+    padding: 13px;
+  }
+
+  footer .icons .icons-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+footer .icons .icons-list a i {
+    color: #050912;
+    font-size: 30px;
+    padding: 15px;
+
+}
+
+footer .icons .icons-list a i:hover {
+    color: #ffffff;
+    transition: all 0.3s;
+    scale: 1.1;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 100vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    height: 20px;
+    width: 100vh;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+
+.logo{
+    font-size: 1.3rem;
+}
+
+footer .icons{
+    padding: 23px;
+    text-align: center;
+}

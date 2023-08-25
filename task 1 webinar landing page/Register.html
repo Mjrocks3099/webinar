@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    
+    <style>
+
+        body{
+          background-image:url(./assets/bcg4.jpg);
+          display:flex ;
+          align-items: center;
+          justify-content: center;
+
+        }
+        .signupForm{
+
+          background-image:url(./assets/bcg3.jpg);
+          border-radius: 12px;
+          display: flex;
+          flex-direction: column;
+          padding: 15px;
+          width: 220px;
+          height: 55vh;
+          margin-top: 150px;
+          font-family: sans-serif;
+          border: solid black;
+          border-width: 2px;
+          align-items: center;
+          justify-content: center;
+        }
+        h2{
+          font-weight: 200;
+          font-family: sans-serif;
+          color: white;
+          font-size: 2vw;
+        }
+
+        #btn{
+          margin-left: 70px;
+          border: 2px, black;
+          border-radius: 10px;
+        }
+
+        body{
+          align-items: center;
+        }
+
+        #name{
+          border-radius: 5px;
+        }
+        #email{
+          border-radius: 5px;
+        }
+        #city{
+          border-radius: 5px;
+        }
+        #mobile{
+          border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="signupForm">
+      <h2>Enter Your Details Here!</h2>
+      <form  id="form" name="myform" action="submit.php" method="POST">
+
+        <label for="name">Name:</label>
+        <input type="Name" id="name" name="name" placeholder="your name here"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="Email" id="email" name="email" placeholder="enter your email"><br><br>
+
+        <label for="city">City:</label> <br>
+        <input type="city" id="city" name="city" placeholder="enter your city"><br><br>
+
+        <label for="mobile">Mobile:</label>
+        <input type="mobile" id="mobile" name="mobile" placeholder="enter mobile number"><br><br>
+
+        <input type="submit" id="btn" value="Submit">
+      </form>
+    </div>
+      </script>
+</body>
+</html>
